@@ -1,0 +1,12 @@
+:host ::ng-deep {
+  a[mat-list-item] {
+    text-decoration: none !important;
+    color: inherit;
+
+    &:hover,
+    &:focus {
+      text-decoration: underline !important;
+      color: #3f51b5; // Material primary (indigo)
+    }
+  }
+}
